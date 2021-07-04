@@ -10,7 +10,7 @@ Shell que configura un servidor VNC en MacOS VNC que puede correr a través de G
 
 ## ¿Qué es esto?
  
-Este repositorio incluye un shell que
+Este repositorio incluye un shell y una definición para Github Actions que
   - habilita el servidor VNC en MacOS VNC server, asignando un nuevo usuario administrador y asignando un password para VNC 
   - instala `ngrok` y lo usa para configurar un tcp tunnel para la conexión con VNC/Apple Screen Sharing.
   - ejecuta `tmate` para configurar un Web Shell y una conexión SSH
