@@ -1,0 +1,17 @@
+name: macos-with-ssh
+on: 
+  workflow_dispatch:
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  build:
+    runs-on: macos-latest
+    steps:
+
+    - name: Checkout repository
+      uses: actions/checkout@v2
+    
+    - name: Setup tmate session
+      uses: mxschmitt/action-tmate@v2
